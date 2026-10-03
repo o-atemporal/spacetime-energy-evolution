@@ -330,28 +330,74 @@ Forma registrada. Não apresenta calibração numérica.
 
 ## 48ª Forma — A Velocidade da Seta
 
+### Origem
+
+A 46ª Forma isola a fração da vida percorrida. Sua **derivada** é a velocidade com
+que essa fração avança — e é ela que dá à seta do tempo uma taxa mensurável.
+
+A forma nasce da constatação de que a taxa de transformação do sistema é o
+produto entre a reatividade e a resistência — vₐ·R —, a mesma grandeza que
+aparece no denominador do axioma fundamental.
+
 ### A equação
 
 $$
 v_{seta} = \frac{d}{dt}\left(\frac{t}{t_{evap}}\right)
 $$
 
-E, no modelo, ela se escreve em função das grandezas da própria 46ª:
+E, no modelo:
 
 $$
 v_{seta} \;\propto\; v_a \cdot R \;=\; \frac{k}{\Phi}
 $$
 
-### O que ela estabelece
+### A derivação
 
-A seta deixa de ser direção e passa a ser **velocidade**. Ela é a taxa de
-transformação — o quanto o sistema converte identidade em fluxo por unidade de
-tempo.
+Partindo da 46ª com o termo estrutural isolado:
+
+$$
+1 - \frac{t}{t_{evap}} = \Bigg[ \frac{\lambda \Big[ \big( \frac{k}{\varepsilon+\Phi} \big)^{1/n} - 1 \Big]}{R \big(1 - a^{2}\cos^{2}\theta\big)} \Bigg]^{3}
+$$
+
+Nomeando o colchete:
+
+$$
+u = \frac{\lambda \Big[ \big( \frac{k}{\varepsilon+\Phi} \big)^{1/n} - 1 \Big]}{R \big(1 - a^{2}\cos^{2}\theta\big)}
+$$
+
+A razão temporal é 1 − u³. Derivando em relação a t, com
+R(t) = R₀ (1 − t/t_evap)^(1/3):
+
+$$
+v_{seta} = \frac{d}{dt}\big(1 - u^{3}\big) = -3u^{2} \frac{du}{dt}
+$$
+
+Como u ∝ 1/R³ e R³ ∝ (1 − t/t_evap):
+
+$$
+\frac{du}{dt} \propto -\frac{1}{R^{4}} \cdot \frac{R_0}{3\,t_{evap}} \Big(1 - \frac{t}{t_{evap}}\Big)^{-2/3}
+$$
+
+**Resultado em forma fechada:**
+
+$$
+v_{seta} = \frac{3}{t_{evap}} \Bigg[ \frac{\lambda \Big[ \big( \frac{k}{\varepsilon+\Phi} \big)^{1/n} - 1 \Big]}{R \big(1 - a^{2}\cos^{2}\theta\big)} \Bigg]^{2} \Big(1 - \frac{t}{t_{evap}}\Big)
+$$
+
+### O que a forma estabelece
+
+A seta deixa de ser direção e passa a ser **velocidade**.
 
 | Leitura | Escrita | O que significa |
 | --- | --- | --- |
 | Pelo produto | v_seta ∝ vₐ·R | Reatividade × resistência |
 | Pela identidade | v_seta ∝ k/Φ | O decaimento de k |
+
+| Termo da derivada | Papel |
+| --- | --- |
+| 3 / t_evap | Escala temporal do sistema |
+| u² | Termo estrutural ao quadrado |
+| (1 − t/t_evap) | Fator de desvanecimento |
 
 ### Os regimes
 
@@ -361,14 +407,19 @@ tempo.
 | Interior | Médio | Média | Transformação em curso |
 | Centro (vₐ = 1) | Mínimo | Zero | Seta parada |
 
+| Instante | 1 − t/t_evap | v_seta |
+| --- | --- | --- |
+| Início (t = 0) | → 1 | Máxima |
+| Meio | intermediário | Decrescente |
+| Fim (t → t_evap) | → 0 | → 0 — a seta para |
+
 ### Limite canônico
 
 $$
 v_a = 1, \; R \to R_{min} \;\Longrightarrow\; v_{seta} \to 0, \; k = \Phi
 $$
 
-No extremo, a identidade iguala-se ao fluxo. Não há mais transformação, e a
-seta para.
+No extremo, a identidade iguala-se ao fluxo. Não há mais transformação, e a seta para.
 
 ### Aplicação ao sistema de Kerr
 
@@ -386,42 +437,19 @@ seta para.
 Direção (47ª), ponto de parada e **velocidade**. A seta passa a ser mensurável:
 medindo reatividade e resistência, tem-se a taxa do tempo.
 
+### Modelo aberto
+
+O sistema é aberto. Formas derivadas podem ser apresentadas por terceiros, desde
+que a raiz seja citada. Este repositório registra as que o autor formulou até a
+data indicada.
+
 ### Status
 
-Forma registrada. Aberta a desenvolvimento posterior.
+Forma registrada, com equação, derivação, regimes e aplicação ao limite de Kerr.
+Não apresenta calibração numérica.
 
 **Em aberto:** a assimetria temporal como derivada formal — a 46ª é simétrica em t.
 
----
-
-## Quadro-Resumo das Inversas
-
-| Forma | Isola | Complexidade |
-| --- | --- | --- |
-| 36ª | Φ | Direta |
-| 37ª | k | Direta |
-| 38ª | Termo estrutural | Direta |
-| 39ª | R | Direta |
-| 40ª | t | Cúbica |
-| 41ª | t_evap | Cúbica |
-| 42ª | θ | Quadrática |
-| 43ª | a | Quadrática |
-| 44ª | λ | Direta |
-| 45ª | n | Logarítmica |
-| 46ª | t | Registro do Tempo|
-
-As formas 40ª a 43ª exigem raiz ou cúbica, porque t, t_evap, θ e a entram
-dentro dos fatores temporais ou angulares.
-
----
-
-## Origem das dependências
-
-| Elemento | Origem |
-| --- | --- |
-| t_evap ∝ M₀³ | Radiação Hawking |
-| (1 - t/t_evap)^(1/3) | Adaptação ao raio equatorial |
-| 1 - a²cos²θ | Métrica de Kerr |
 
 ---
 
