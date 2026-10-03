@@ -505,6 +505,7 @@ Não apresenta calibração numérica.
 | Extensão rotacional | 32ª, 33ª |
 | Energia angular e evolução | 34ª, 35ª |
 | **Inversas da evolução** | **36ª a 45ª** |
+| **Fração temporal e velocidade da seta** | **46ª a 48ª** |
 
 ---
 
