@@ -283,75 +283,48 @@ Forma registrada com escrita, termos, domínio e casos limites.
 **Em aberto:** a direção da entropia na 9ª Forma e a assimetria temporal da própria 46ª permanecem como desenvolvimento posterior.
 
 ---
-## 47ª Forma — A Saída da Reatividade
+## 47ª Forma — O Sentido do Raio Radial
 
 ### A equação
 
-Com vₐ = 1, o termo de velocidade se absorve e a equação reduz-se à relação
-entre o fluxo e a identidade:
-
 $$
-\Phi = \frac{k}{R}
-\qquad \longrightarrow \qquad
-R_c = \frac{k}{\Phi}
+R = \frac{\lambda \Big[ \big( \frac{k}{\varepsilon+\Phi} \big)^{1/n} - 1 \Big]}{\big(1 - a^{2}\cos^{2}\theta\big) \Big(1 - \frac{t}{t_{evap}}\Big)^{1/3}}
 $$
 
-### O que sai
+### O que ela estabelece
 
-| Antes de vₐ = 1 | Depois |
-| --- | --- |
-| Reatividade multiplicando a resistência | Reatividade absorvida |
-| Tempo como trajetória | Tempo parado |
-| Escala dependente do movimento | Escala canônica |
-| Entropia avançando | Entropia estacionária |
+O raio radial **carrega a seta**. Dado o estado, R diz em que ponto da
+trajetória o sistema está — e o sentido do avanço é o sentido de R.
 
-### O que resta
+### A direção — de fora para dentro
 
-Uma relação de **proporcionalidade entre duas grandezas** — sem movimento,
-sem trajetória, sem duração:
+| Região | R | vₐ | Seta |
+| --- | --- | --- | --- |
+| Borda do disco | Grande | Alto | Avanço rápido |
+| Interior | Médio | Médio | Avanço menor |
+| Centro | Mínimo | 1 | Parada |
 
-$$
-\frac{k}{\Phi}
-$$
+### A parada
 
-Não há dinâmica. Há **proporção**.
-
-### Leitura — a relação que resta é de escala
-
-Quando vₐ sai, o que sobra não é uma relação de movimento, e sim a razão entre
-a identidade do sistema e o fluxo. É a estrutura da escala de ação — a mesma
-família em que aparece λ = h/p, já declarada na Quinta Forma.
-
-| Camada | Estado |
-| --- | --- |
-| Clássica | vₐ presente — movimento, tempo, trajetória |
-| Relativística | vₐ → c — o teto físico |
-| **Canônica** | **vₐ = 1 — o termo sai, resta a relação** |
-| Quântica | A relação pura — sem dinâmica, sem seta |
-
-### A cadeia completa
+Em vₐ = 1 o termo de velocidade se absorve e a razão temporal se anula:
 
 $$
-v_a \downarrow \;\Rightarrow\; \Phi \uparrow \;\Rightarrow\; S_{max} \downarrow
-\;\Rightarrow\; v_a = 1 \;\Rightarrow\; \frac{t}{t_{evap}} \to 0
-\;\Rightarrow\; \textbf{a seta para}
+v_a = 1 \;\Longrightarrow\; \frac{t}{t_{evap}} \to 0
+\;\Longrightarrow\; \text{a seta para}
 $$
 
-**Onde:** o centro do disco, onde a reatividade é adimensional e unitária.
+O ponto de parada é o **centro do disco** — onde a reatividade é unitária e não
+há movimento relativo. Ali resta a relação canônica, R_c = k/Φ.
 
-**Por que:** a parada exige ausência de movimento relativo. Em vₐ = 1 o termo de
-velocidade se absorve e resta a escala canônica — R_c = k/Φ (Quinta Forma).
+### Fonte
 
-**Fora daí:** com vₐ > 1 a taxa de avanço é positiva, e a seta corre. Quanto
-maior a reatividade, mais rápido o sistema percorre a trajetória.
+Inversão estrutural da 46ª Forma, isolando o raio radial.
 
 ### Status
 
-Forma registrada. Não apresenta calibração numérica e não deve ser lido como
-validação.
+Forma registrada. Não apresenta calibração numérica.
 
-**Em aberto:** a assimetria temporal da 46ª — a forma é simétrica em t. A seta
-não está escrita nela como derivada.
+**Em aberto:** a assimetria temporal como derivada — a forma é simétrica em t.
 
 ---
 
