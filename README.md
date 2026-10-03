@@ -525,7 +525,8 @@ Com t = 0, o fator temporal é unitário e as dez formas inversas se reduzem
 | Axioma de campo e formas derivadas | 01/10/2026 |
 | Extensão rotacional (A e B) | 01/10/2026 |
 | Energia angular e evolução espaço-temporal | 03/10/2026 |
-| **Formas inversas 36ª a 45ª** | **03/10/2026 (este registro)** |
+| Formas inversas 36ª a 45ª | 03/10/2026  |
+| **Fração temporal e velocidade da seta 46ª a 48ª** | **03/10/2026 (este registro)** |
 
 ---
 
