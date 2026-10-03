@@ -97,6 +97,7 @@ $$
 
 
 
+
 **Isola:** o instante da evolução.
 **Domínio:** t < t_evap.
 
