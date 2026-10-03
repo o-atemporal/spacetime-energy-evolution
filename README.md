@@ -88,21 +88,6 @@ $$
 **Isola:** o instante da evolução.
 **Domínio:** t < t_evap.
 
----
-
-### 40ª Forma — Tempo de Evolução Inverso
-
-$$
-t = t_{evap}\left\{1-\frac{\lambda\left[\left(\frac{k}{\varepsilon+\Phi}\right)^{1/n}-1\right]}{R\left(1-a^{2}\cos^{2}\theta\right)}\right\}
-$$
-
-**Isola:** o instante da evolução.
-
-**Domínio:** t < t_evap.
-
-
-**Isola:** o instante da evolução.
-**Domínio:** t < t_evap.
 
 ---
 
