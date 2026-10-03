@@ -220,6 +220,7 @@ Forma registrada com escrita, termos, domínio e casos limites.
 | 43ª | a | Quadrática |
 | 44ª | λ | Direta |
 | 45ª | n | Logarítmica |
+| 46ª | t | Registro do Tempo|
 
 As formas 40ª a 43ª exigem raiz ou cúbica, porque t, t_evap, θ e a entram
 dentro dos fatores temporais ou angulares.
