@@ -1,4 +1,4 @@
-# 35ª Forma - Evolução Espaço-Temporal da Energia
+# Evolução Espaço-Temporal da Energia
 
 Registro das derivadas de energia angular, da evolução espaço-temporal
 e das formas inversas do axioma de campo de fluxo inverso,
@@ -7,8 +7,9 @@ formuladas em **03 de outubro de 2026**.
 Ecossistema **O Atemporal** — Antônio Marcos. Licença CC BY 4.0.
 
 ---
+## Módulo VIII — Energia Angular e Evolução
 
-## 35ª Forma - Derivada de Energia Angular
+### 34ª Forma — Derivada de Energia Angular
 
 $$
 \varepsilon(\theta) = \frac{k}{\left(1 + \dfrac{R_0 (1 - a^2\cos^2\theta)}{\lambda}\right)^{n}} - \Phi
@@ -26,7 +27,7 @@ se reduz à inversa padrão.
 
 ---
 
-## Evolução Espaço-Temporal da Energia
+## 35ª Forma — Evolução Espaço-Temporal da Energia
 
 $$
 \varepsilon(\theta, t) = \frac{k}{\left(1 + \dfrac{R_{inicial}\left(1 - \frac{t}{t_{evap}}\right)^{1/3}(1 - a^2\cos^2\theta)}{\lambda}\right)^{n}} - \Phi
