@@ -82,7 +82,7 @@ $$
 ### 39ª Forma — Escala de Referência Inversa
 
 $$
-t = t_{evap}\left\{1 - \left[\frac{\lambda\left[\left(\dfrac{k}{\varepsilon + \Phi}\right)^{1/n} - 1\right]}{R(1 - a^2\cos^2\theta)}\right]^{3}\right\}
+R = \frac{\lambda\left[\left(\dfrac{k}{\varepsilon + \Phi}\right)^{1/n} - 1\right]}{\left(1 - \dfrac{t}{t_{evap}}\right)^{1/3}(1 - a^2\cos^2\theta)}
 $$
 
 **Isola:** o instante da evolução.
