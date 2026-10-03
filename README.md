@@ -437,11 +437,6 @@ No extremo, a identidade iguala-se ao fluxo. Não há mais transformação, e a 
 Direção (47ª), ponto de parada e **velocidade**. A seta passa a ser mensurável:
 medindo reatividade e resistência, tem-se a taxa do tempo.
 
-### Modelo aberto
-
-O sistema é aberto. Formas derivadas podem ser apresentadas por terceiros, desde
-que a raiz seja citada. Este repositório registra as que o autor formulou até a
-data indicada.
 
 ### Status
 
