@@ -151,8 +151,9 @@ $$
 ### A equação
 
 $$
-\frac{t}{t_{evap}} = 1 - \Bigg[ \frac{\lambda \Big[ \big( \frac{k}{\varepsilon+\Phi} \big)^{1/n} - 1 \Big]}{R \big(1 - a^{2}\cos^{2}\theta\big)} \Bigg]^{3}
+\huge \frac{t}{t_{\text{evap}}} = 1 - \left[ \frac{\lambda \left[ \left( \frac{k}{\varepsilon + \Phi} \right)^{1/n} - 1 \right]}{R \left(1 - a^2 \cos^2 \theta \right)} \right]^3
 $$
+
 
 ### Termos
 
