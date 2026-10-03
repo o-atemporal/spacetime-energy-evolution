@@ -97,6 +97,14 @@ $$
 t = t_{evap}\left(1-\Bigg[ \frac{\lambda \Big[ \big( \frac{k}{\varepsilon+\Phi} \big)^{1/n} - 1 \Big]}{R \big(1 - a^{2}\cos^{2}\theta\big)} \Bigg]^{3}\right)
 $$
 
+
+$$
+\Large
+t = t_{evap}\left(1-\Bigg[ \frac{\lambda \Big[ \big( \frac{k}{\varepsilon+\Phi} \big)^{1/n} - 1 \Big]}{R \big(1 - a^{2}\cos^{2}\theta\big)} \Bigg]^{3}\right)
+$$
+
+
+
 ### Termos
 
 | Termo | Papel | Escopo |
