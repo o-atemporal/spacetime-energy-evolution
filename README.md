@@ -89,6 +89,90 @@ $$
 **Domínio:** t < t_evap.
 ---
 
+## 40ª Forma — Tempo de Evolução Inverso
+
+### A equação
+
+$$
+t = t_{evap}\left(1-\Bigg[ \frac{\lambda \Big[ \big( \frac{k}{\varepsilon+\Phi} \big)^{1/n} - 1 \Big]}{R \big(1 - a^{2}\cos^{2}\theta\big)} \Bigg]^{3}\right)
+$$
+
+### Termos
+
+| Termo | Papel | Escopo |
+| --- | --- | --- |
+| t | Instante da evolução | t < t_evap |
+| t_evap | Tempo total de evaporação | Do sistema |
+| k | Identidade do sistema | Do sistema em análise |
+| ε | Energia do domínio | Do domínio observado |
+| Φ | Fluxo de energia (Φ = Mc² em astrofísica) | Universal |
+| R | Escala de referência | Do sistema |
+| λ | Chave seletora de escala | Do domínio |
+| n | Expoente geométrico | Do regime |
+| a | Parâmetro de rotação | 0 ≤ a < 1 |
+| θ | Ângulo de inclinação | 0° ≤ θ ≤ 90° |
+
+### Domínio e condição
+
+- t < t_evap
+- k ≠ 0, λ > 0, n > 0
+- (k / (ε + Φ))^(1/n) ≠ 1
+- O denominador não pode se anular
+
+**Espera-se:** t ≥ 0, com t → t_evap correspondendo à evaporação completa.
+
+**Função:** determina em que momento da evaporação o sistema se encontra, a partir dos parâmetros estruturais e do estado observado.
+
+### Origem da forma
+
+A inversa da **41ª Forma — Tempo de Evaporação Inverso**. Herda a dependência
+temporal da adaptação ao raio equatorial:
+
+$$
+R(t) = R_{inicial}\left(1 - \frac{t}{t_{evap}}\right)^{1/3}
+$$
+
+que decorre da lei de Hawking, com t_evap ∝ M₀³.
+
+### Casos limites
+
+| Condição | O que acontece |
+| --- | --- |
+| t = 0 | Sistema no estado inicial — nenhuma trajetória percorrida |
+| t → t_evap | Evaporação completa — o termo estrutural se anula |
+| a = 0 ou θ = 90° | O fator angular se anula — resta a dependência estrutural pura |
+| (k/(ε + Φ))^(1/n) = 1 | O colchete se anula — t = 0 |
+
+### Relação com as demais formas
+
+| Forma | Relação |
+| --- | --- |
+| 35ª — Evolução espaço-temporal | A equação da qual esta é a inversa |
+| 41ª — Tempo de evaporação inverso | Forma complementar — devolve o total |
+| 46ª — Registro do Tempo | A inversão estrutural desta forma, isolando a razão t/t_evap |
+| 9ª — Teto entrópico | Vinculada pela razão t/t_evap ↔ S/S_max |
+
+### Notação
+
+A equação está na versão com tamanhos fixos de delimitador (\Bigg, \Big, \big)
+em vez de \left/\right — o KaTeX do GitHub não pareia três níveis de delimitador
+que crescem. O desenho é o mesmo.
+
+### Status
+
+Forma registrada com escrita, termos, domínio, casos limites e origem.
+
+Não apresenta calibração numérica e não deve ser lido como validação.
+
+**Em aberto:** a direção da entropia na 9ª Forma e a assimetria temporal da 46ª
+permanecem como desenvolvimento posterior. A determinação de R, t_evap e do par
+(k, λ) segue como trabalho de calibração.
+
+
+
+---
+
+
 ### 40ª Forma — Tempo de Evaporação Inverso
 
 $$
