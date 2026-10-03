@@ -328,6 +328,72 @@ Forma registrada. Não apresenta calibração numérica.
 
 ---
 
+## 48ª Forma — A Velocidade da Seta
+
+### A equação
+
+$$
+v_{seta} = \frac{d}{dt}\left(\frac{t}{t_{evap}}\right)
+$$
+
+E, no modelo, ela se escreve em função das grandezas da própria 46ª:
+
+$$
+v_{seta} \;\propto\; v_a \cdot R \;=\; \frac{k}{\Phi}
+$$
+
+### O que ela estabelece
+
+A seta deixa de ser direção e passa a ser **velocidade**. Ela é a taxa de
+transformação — o quanto o sistema converte identidade em fluxo por unidade de
+tempo.
+
+| Leitura | Escrita | O que significa |
+| --- | --- | --- |
+| Pelo produto | v_seta ∝ vₐ·R | Reatividade × resistência |
+| Pela identidade | v_seta ∝ k/Φ | O decaimento de k |
+
+### Os regimes
+
+| Região | vₐ·R | v_seta | Estado |
+| --- | --- | --- | --- |
+| Borda do disco | Alto | Rápida | Reatividade alta |
+| Interior | Médio | Média | Transformação em curso |
+| Centro (vₐ = 1) | Mínimo | Zero | Seta parada |
+
+### Limite canônico
+
+$$
+v_a = 1, \; R \to R_{min} \;\Longrightarrow\; v_{seta} \to 0, \; k = \Phi
+$$
+
+No extremo, a identidade iguala-se ao fluxo. Não há mais transformação, e a
+seta para.
+
+### Aplicação ao sistema de Kerr
+
+| Grandeza | Borda | Centro / Kerr extremo |
+| --- | --- | --- |
+| vₐ | Alto | 1 |
+| R | Grande | Mínimo |
+| Φ | Baixo | Máximo |
+| S_max | Alta | Mínima |
+| **v_seta** | **Rápida** | **Zero** |
+| Identidade | k decaindo | k = Φ — estável |
+
+### O que a forma acrescenta
+
+Direção (47ª), ponto de parada e **velocidade**. A seta passa a ser mensurável:
+medindo reatividade e resistência, tem-se a taxa do tempo.
+
+### Status
+
+Forma registrada. Aberta a desenvolvimento posterior.
+
+**Em aberto:** a assimetria temporal como derivada formal — a 46ª é simétrica em t.
+
+---
+
 ## Quadro-Resumo das Inversas
 
 | Forma | Isola | Complexidade |
