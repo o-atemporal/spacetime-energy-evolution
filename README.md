@@ -283,6 +283,77 @@ Forma registrada com escrita, termos, domínio e casos limites.
 **Em aberto:** a direção da entropia na 9ª Forma e a assimetria temporal da própria 46ª permanecem como desenvolvimento posterior.
 
 ---
+## 47ª Forma — A Saída da Reatividade
+
+### A equação
+
+Com vₐ = 1, o termo de velocidade se absorve e a equação reduz-se à relação
+entre o fluxo e a identidade:
+
+$$
+\Phi = \frac{k}{R}
+\qquad \longrightarrow \qquad
+R_c = \frac{k}{\Phi}
+$$
+
+### O que sai
+
+| Antes de vₐ = 1 | Depois |
+| --- | --- |
+| Reatividade multiplicando a resistência | Reatividade absorvida |
+| Tempo como trajetória | Tempo parado |
+| Escala dependente do movimento | Escala canônica |
+| Entropia avançando | Entropia estacionária |
+
+### O que resta
+
+Uma relação de **proporcionalidade entre duas grandezas** — sem movimento,
+sem trajetória, sem duração:
+
+$$
+\frac{k}{\Phi}
+$$
+
+Não há dinâmica. Há **proporção**.
+
+### Leitura — a relação que resta é de escala
+
+Quando vₐ sai, o que sobra não é uma relação de movimento, e sim a razão entre
+a identidade do sistema e o fluxo. É a estrutura da escala de ação — a mesma
+família em que aparece λ = h/p, já declarada na Quinta Forma.
+
+| Camada | Estado |
+| --- | --- |
+| Clássica | vₐ presente — movimento, tempo, trajetória |
+| Relativística | vₐ → c — o teto físico |
+| **Canônica** | **vₐ = 1 — o termo sai, resta a relação** |
+| Quântica | A relação pura — sem dinâmica, sem seta |
+
+### A cadeia completa
+
+$$
+v_a \downarrow \;\Rightarrow\; \Phi \uparrow \;\Rightarrow\; S_{max} \downarrow
+\;\Rightarrow\; v_a = 1 \;\Rightarrow\; \frac{t}{t_{evap}} \to 0
+\;\Rightarrow\; \textbf{a seta para}
+$$
+
+**Onde:** o centro do disco, onde a reatividade é adimensional e unitária.
+
+**Por que:** a parada exige ausência de movimento relativo. Em vₐ = 1 o termo de
+velocidade se absorve e resta a escala canônica — R_c = k/Φ (Quinta Forma).
+
+**Fora daí:** com vₐ > 1 a taxa de avanço é positiva, e a seta corre. Quanto
+maior a reatividade, mais rápido o sistema percorre a trajetória.
+
+### Status
+
+Forma registrada. Não apresenta calibração numérica e não deve ser lido como
+validação.
+
+**Em aberto:** a assimetria temporal da 46ª — a forma é simétrica em t. A seta
+não está escrita nela como derivada.
+
+---
 
 ## Quadro-Resumo das Inversas
 
