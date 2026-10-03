@@ -92,7 +92,7 @@ $$
 ### 40ª Forma — Tempo de Evolução Inverso
 
 $$
-t = t_{\text{evap}} \Bigg\{ 1 - \left[ \frac{\lambda \bigg[ \left( \frac{k}{\varepsilon + \Phi} \right)^{1/n} - 1 \bigg]}{R (1 - a^2 \cos^2 \theta)} \right]^3 \Bigg\}
+t = t_{\text{evap}} \Bigg\{ 1 - \Bigg[ \frac{\lambda \bigg[ \left( \frac{k}{\varepsilon + \Phi} \right)^{1/n} - 1 \bigg]}{R (1 - a^2 \cos^2 \theta)} \Bigg]^3 \Bigg\}
 $$
 
 
