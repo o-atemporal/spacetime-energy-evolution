@@ -204,6 +204,7 @@ Forma registrada com escrita, termos, domínio e casos limites.
 
 **Em aberto:** a direção da entropia na 9ª Forma e a assimetria temporal da própria 46ª permanecem como desenvolvimento posterior.
 
+---
 
 ## Quadro-Resumo das Inversas
 
