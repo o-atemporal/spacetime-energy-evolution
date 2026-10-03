@@ -146,6 +146,65 @@ $$
 
 ---
 
+## 46ª Forma — Registro do Tempo
+
+### A equação
+
+$$
+\frac{t}{t_{evap}} = 1 - \Bigg[ \frac{\lambda \Big[ \big( \frac{k}{\varepsilon+\Phi} \big)^{1/n} - 1 \Big]}{R \big(1 - a^{2}\cos^{2}\theta\big)} \Bigg]^{3}
+$$
+
+### Termos
+
+| Termo | Papel | Escopo |
+| --- | --- | --- |
+| t / t_evap | Fração da vida percorrida | 0 a 1 |
+| k | Identidade do sistema | Do sistema em análise |
+| ε | Energia do domínio | Do domínio observado |
+| Φ | Fluxo de energia | Universal |
+| R | Escala de referência | Do sistema |
+| λ | Chave seletora de escala | Do domínio |
+| n | Expoente geométrico | Do regime |
+| a | Parâmetro de rotação | 0 ≤ a < 1 |
+| θ | Ângulo de inclinação | 0° ≤ θ ≤ 90° |
+
+### Domínio e condição
+
+- k ≠ 0, λ > 0, n > 0
+- (k / (ε + Φ))^(1/n) ≠ 1
+- O termo entre colchetes permanece no intervalo que mantém a razão em [0, 1]
+
+**Espera-se:** t / t_evap entre 0 e 1 — de sistema recém-formado a evaporação completa.
+
+**Fonte da forma:** inversão estrutural da 40ª e da 41ª Formas, que recuperam o tempo a partir do estado.
+
+### Enunciado
+
+> A inversão estrutural aplicada à razão temporal isola a fração da vida percorrida. Ela é obtida exclusivamente do estado observado — sem medição direta de tempo — e coincide com a fração do teto entrópico consumido.
+
+### Casos limites
+
+| Condição | Leitura |
+| --- | --- |
+| Razão = 0 | Estado canônico — nenhuma trajetória percorrida |
+| Razão = 1 | Evaporação completa |
+| a = 0 ou θ = 90° | O fator angular se anula — resta a dependência estrutural pura |
+
+### Relação com a entropia
+
+$$
+\frac{t}{t_{evap}} \quad \longleftrightarrow \quad \frac{S}{S_{max}}
+$$
+
+A fração temporal e a fração entrópica medem o mesmo avanço por dois caminhos.
+
+### Status
+
+Forma registrada com escrita, termos, domínio e casos limites.
+
+**Em aberto:** a direção da entropia na 9ª Forma e a assimetria temporal da própria 46ª permanecem como desenvolvimento posterior.
+
+
 ## Quadro-Resumo das Inversas
 
 | Forma | Isola | Complexidade |
