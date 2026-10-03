@@ -93,10 +93,6 @@ $$
 
 ### A equação
 
-$$
-t = t_{evap}\left(1-\Bigg[ \frac{\lambda \Big[ \big( \frac{k}{\varepsilon+\Phi} \big)^{1/n} - 1 \Big]}{R \big(1 - a^{2}\cos^{2}\theta\big)} \Bigg]^{3}\right)
-$$
-
 
 $$
 \Large
@@ -159,12 +155,6 @@ que decorre da lei de Hawking, com t_evap ∝ M₀³.
 | 41ª — Tempo de evaporação inverso | Forma complementar — devolve o total |
 | 46ª — Registro do Tempo | A inversão estrutural desta forma, isolando a razão t/t_evap |
 | 9ª — Teto entrópico | Vinculada pela razão t/t_evap ↔ S/S_max |
-
-### Notação
-
-A equação está na versão com tamanhos fixos de delimitador (\Bigg, \Big, \big)
-em vez de \left/\right — o KaTeX do GitHub não pareia três níveis de delimitador
-que crescem. O desenho é o mesmo.
 
 ### Status
 
