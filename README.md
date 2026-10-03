@@ -168,18 +168,6 @@ Não apresenta calibração numérica e não deve ser lido como validação.
 permanecem como desenvolvimento posterior. A determinação de R, t_evap e do par
 (k, λ) segue como trabalho de calibração.
 
-
-
----
-
-
-### 40ª Forma — Tempo de Evaporação Inverso
-
-$$
-t = t_{evap}\left(1-\Bigg[ \frac{\lambda \Big[ \big( \frac{k}{\varepsilon+\Phi} \big)^{1/n} - 1 \Big]}{R \big(1 - a^{2}\cos^{2}\theta\big)} \Bigg]^{3}\right)
-$$
-
-
 ---
 
 ### 41ª Forma — Tempo de Evaporação Inverso
