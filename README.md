@@ -649,6 +649,7 @@ Com t = 0, o fator temporal é unitário e as dez formas inversas se reduzem
 | Energia angular e evolução espaço-temporal | 03/10/2026 |
 | Formas inversas 36ª a 45ª | 03/10/2026  |
 | **Fração temporal e velocidade da seta 46ª a 48ª** | **03/10/2026 (este registro)** |
+| **O ponto zero (49ª)** | **05/10/2026** |
 
 ---
 
