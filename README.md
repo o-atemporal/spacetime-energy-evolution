@@ -491,6 +491,126 @@ Não apresenta calibração numérica.
 | Terceira via adaptativa | O hipometabolismo consciente — nem luta, nem fuga |
 
 ---
+# 49ª Forma — O Ponto Zero
+
+## Origem
+
+A 48ª Forma estabelece a velocidade da seta, mas deixa o termo de deslocamento
+em aberto — ε + Φ entra na razão sem origem declarada. A 49ª Forma **substitui
+esse termo pela identidade do estado canônico**: o deslocamento não é um
+parâmetro livre, é o próprio k_c.
+
+É o mesmo movimento da 31ª Forma em relação ao axioma de campo: a troca que dá
+**origem** à forma.
+
+## A substituição
+
+**48ª Forma:**
+
+$$
+v_{seta} = \frac{3}{t_{evap}}
+\left[\frac{\lambda\left[\left(\frac{k}{\varepsilon+\Phi}\right)^{1/n}-1\right]}{R\left(1-a^{2}\cos^{2}\theta\right)}\right]^{2}
+\left(1-\frac{t}{t_{evap}}\right)
+$$
+
+**49ª Forma:**
+
+$$
+\boxed{
+\;v_{seta} = \frac{3}{t_{evap}}
+\left[\frac{\lambda\left[\left(\frac{k}{k_c}\right)^{1/n}-1\right]}{R\left(1-a^{2}\cos^{2}\theta\right)}\right]^{2}
+\left(1-\frac{t}{t_{evap}}\right)
+\;}
+\qquad\text{com}\qquad
+k_c = \frac{GM^{2}}{c^{2}}
+$$
+
+---
+
+## Domínio
+
+O estado canônico como origem da taxa. A equação nasce onde k = k_c — o tempo
+é zero e a seta não incide.
+
+## Função
+
+Põe o **ponto zero** em evidência. O numerador zera onde k = k_c, e a razão
+dentro do colchete assume a forma do horizonte de Kerr:
+
+$$
+\frac{k}{k_c} = \frac{R}{GM/c^{2}} = 1+\sqrt{1-\chi^{2}}
+$$
+
+---
+
+## O que a forma estabelece
+
+| Grandeza | 48ª Forma | 49ª Forma |
+| --- | --- | --- |
+| Termo de deslocamento | ε + Φ — livre | **k_c — o canônico** |
+| Origem | Ausente | **O ponto zero** |
+| Numerador zera onde | k = ε + Φ | **k = k_c** |
+| Razão do colchete | k/(ε+Φ) | **k/k_c = 1 + √(1 − χ²)** |
+| Comportamento | subia ao centro | **zera ao centro** |
+
+### M87* — a seta em cada spin
+
+| χ | R (bi km) | k/k_c | Numerador | v_seta |
+| --- | --- | --- | --- | --- |
+| 0,0 | 19,20 | 2,000000 | 1,000000 | máxima |
+| 0,5 | 17,92 | 1,866025 | 0,866025 | corre |
+| 0,9 | 13,79 | 1,435890 | 0,435890 | desacelera |
+| 0,99 | 10,96 | 1,141067 | 0,141067 | quase para |
+| **1,0** | **9,60** | **1,000000** | **0** | **0 — para** |
+
+**A equação ganha origem:** ela nasce no canônico, onde k = k_c, o tempo é zero
+e a seta não incide. Fora dele, o tempo é a taxa com que o k se transforma em
+direção ao valor canônico — e quanto mais longe do canônico, mais rápido corre.
+
+**O zero da seta e o limite de rotação extrema são o mesmo ponto**, obtidos por
+dois caminhos: a razão k/k_c e a razão r₊ do horizonte de Kerr.
+
+---
+
+## Termos isolados
+
+$$
+\frac{k}{k_c} = \left[\frac{v_{seta}\,t_{evap}}{3\left(1-\frac{t}{t_{evap}}\right)}\right]^{1/2}
+\cdot \frac{R\left(1-a^{2}\cos^{2}\theta\right)}{\lambda} + 1
+$$
+
+$$
+k_c = \frac{k}{\left[\left[\frac{v_{seta}\,t_{evap}}{3\left(1-\frac{t}{t_{evap}}\right)}\right]^{1/2}
+\cdot \frac{R\left(1-a^{2}\cos^{2}\theta\right)}{\lambda} + 1\right]^{n}}
+$$
+
+---
+
+## Lugar na linhagem
+
+| Forma | Origem | Operação | Resultado |
+| --- | --- | --- | --- |
+| 15ª | 2ª Forma (quadrática) | Inversão estrutural | Raio de Schwarzschild |
+| 31ª | Axioma de campo | Inversão dos termos | Fonte em evidência |
+| **49ª** | **48ª Forma** | **Substituição do deslocamento por k_c** | **O ponto zero** |
+
+A operação reaparece porque é estrutural, não circunstancial: a 31ª pôs o fluxo
+em evidência no R_c; a 49ª põe o ponto zero em evidência na v_seta.
+
+---
+
+## Status
+
+Forma registrada, com equação, substituição, regimes, termos isolados e
+aplicação ao sistema de Kerr. A razão k/k_c coincide com a do horizonte externo
+de Kerr em todo o intervalo de spin — desvio 0,0000000000 % no limite χ = 1.
+
+---
+
+*Princípio da Proporcionalidade Inversa, 2026, Antônio Marcos.
+Creative Commons Attribution 4.0 International.*
+
+---
 
 ## Classe de estabilidade
 
