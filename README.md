@@ -627,6 +627,7 @@ Creative Commons Attribution 4.0 International.*
 | Energia angular e evolução | 34ª, 35ª |
 | **Inversas da evolução** | **36ª a 45ª** |
 | **Fração temporal e velocidade da seta** | **46ª a 48ª** |
+| **O ponto zero (49ª)** | **05/10/2026** |
 
 ---
 
